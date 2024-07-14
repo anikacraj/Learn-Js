@@ -11,6 +11,16 @@
 </head>
 
 <body>
+
+
+    <button id="showTime"> Show Time </button>
+    <h2 id="time"></h2>
+<!-- ------------------Error-------------------------- -->
+ <p> Enter number between 5 to 10 </p>
+ <input type="number" id="check">
+ <button id="checkbutton"> Check </button>
+ <h5 id="errorMessage"></h5>
+
     <h1 id="head">This is a heading1 </h1>
     <h1 id="head2">This is a heading2 </h1>
 
@@ -32,7 +42,31 @@
 <button class="button b"> b</button>
 <button class="button c"> c</button>
 
-    <script src="day.js"></script>
+<form action="post">
+    <div>
+        <div>
+            <label for="name">Name 
+                <input type="text" id="name" name="name "  required/>
+            </label>
+        </div>
+     <div>
+        <label for="email">email
+            <input type="text" id="email" name="email"  required/>
+           </label>
+     </div>
+     <div>
+        <label for="password">password
+            <input type="text"  id="password" name="password"   required>
+          </label>
+     </div>
+    </div>
+    <input type="submit" id="submit" name="submit">
+   
+</form>
+<h3 id="message"> </h3>
+
+
+    <script src="day.js" type="module"></script>
 
 
 
